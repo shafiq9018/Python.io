@@ -43,10 +43,4 @@ class Snake:
                 window,
                 int(tail_segment.x),
                 int(tail_segment.y),
-                int(self.head_radius * 0.85),
-                (
-                    self.color[0] * alpha,
-                    self.color[1] * alpha,
-                    self.color[2] * alpha,
-                ),
-            )
+                int(self.head_radius * 0.85),(self.color[0] * alpha,self.color[1] * alpha,self.color[2] * alpha,),)
